@@ -66,6 +66,13 @@ public class AllClassMain {
         ArraySum arraySum = new ArraySum();
         arraySum.arraySum();
 
+        Copy copy =  new Copy("Arpitha",21);
+        System.out.println(copy.age+" "+copy.name);
+
+        Copy secondCopy = new Copy(copy);
+        System.out.println(secondCopy.age+" "+secondCopy.name);
+
+      PrivateConstructor.displayMessage();
     }
 
 }

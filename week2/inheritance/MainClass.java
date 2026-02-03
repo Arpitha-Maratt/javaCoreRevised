@@ -9,5 +9,27 @@ public class MainClass {
 
         stud.displayMarks();
         stud.displayName();
+
+        Cat cat = new Cat();
+        cat.sound();
+
+
+        Dog dog = new Dog();
+        dog.sound();
+
+        Bank bank = new Bank();
+        bank.getRankOfInterest();
+
+
+
+        Shape shape = new Circle();
+        shape.draw();
+
+
+       Student student = new Student();
+        student.displayMarks();
+
+
+
     }
 }
