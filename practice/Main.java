@@ -29,8 +29,7 @@ final class User {
 }
 
 final class SessionStore {
-    // keep count of active sessions per userId
-    private final java.util.Map<Long, Integer> sessions = new java.util.HashMap<>();
+       private final java.util.Map<Long, Integer> sessions = new java.util.HashMap<>();
 
     void createSession(long userId) {
         sessions.put(userId, sessions.getOrDefault(userId, 0) + 1);
